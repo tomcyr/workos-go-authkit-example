@@ -1,0 +1,6 @@
+workos:
+  client_id: ${WORKOS_CLIENT_ID}
+  api_key: ${WORKOS_API_KEY}
+  authkit_url: ${WORKOS_AUTHKIT_URL}
+http:
+  address: ${HTTP_ADDRESS::8080}

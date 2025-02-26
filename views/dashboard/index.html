@@ -1,0 +1,8 @@
+{{template "partials/header" .}}
+
+<h1>WORKOS EXAMPLE DASHBOARD</h1>
+{{ if .Username }}
+Hello, {{ .Username }}!
+{{ end }}
+
+{{template "partials/footer" .}}
